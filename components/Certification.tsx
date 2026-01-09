@@ -1,16 +1,16 @@
 export default function Certification() {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
+        <h2 className="text-4xl font-bold text-white mb-8 text-center">
           Certification
         </h2>
-        <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-shadow duration-300">
+        <div className="bg-gray-800 rounded-lg shadow-md p-8 hover:shadow-xl hover:shadow-primary-500/20 transition-all duration-300 border border-gray-700">
           <div className="flex items-start gap-4">
             <div className="flex-shrink-0">
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center">
+              <div className="w-16 h-16 bg-primary-500/20 rounded-full flex items-center justify-center border border-primary-500/30">
                 <svg
-                  className="w-8 h-8 text-primary-600"
+                  className="w-8 h-8 text-primary-400"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -25,11 +25,11 @@ export default function Certification() {
               </div>
             </div>
             <div className="flex-1">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">
+              <h3 className="text-2xl font-bold text-white mb-2">
                 NextLeap Product Management Fellowship
               </h3>
-              <p className="text-primary-600 font-semibold mb-4">2024</p>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-primary-400 font-semibold mb-4">2024</p>
+              <p className="text-gray-300 leading-relaxed">
                 Hands-on experience in user research, problem discovery, UX
                 design, analytics, and system design
               </p>
@@ -37,7 +37,7 @@ export default function Certification() {
                 href="https://docs.google.com/document/d/1ihIDDrCQrbnpfdRZpnvfnW14I0rF1vPJYbZmIctUmC4/edit?tab=t.0#heading=h.yyt2ztuz1yhu"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 mt-4 text-primary-600 hover:text-primary-700 font-medium transition-colors"
+                className="inline-flex items-center gap-2 mt-4 text-primary-400 hover:text-primary-300 font-medium transition-colors"
               >
                 My Product Portfolio
                 <svg

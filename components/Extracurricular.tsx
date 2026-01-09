@@ -1,14 +1,14 @@
 export default function Extracurricular() {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
+        <h2 className="text-4xl font-bold text-white mb-8 text-center">
           Extracurricular & Interests
         </h2>
-        <div className="bg-gradient-to-br from-primary-50 to-white rounded-lg shadow-md p-8">
+        <div className="bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg shadow-md p-8 border border-gray-700">
           <div className="space-y-4">
             <div className="flex items-start gap-3">
-              <span className="text-primary-600 mt-1 flex-shrink-0">
+              <span className="text-primary-400 mt-1 flex-shrink-0">
                 <svg
                   className="w-6 h-6"
                   fill="none"
@@ -23,14 +23,14 @@ export default function Extracurricular() {
                   />
                 </svg>
               </span>
-              <p className="text-gray-700 text-lg leading-relaxed">
-                <span className="font-semibold">Community & Wellness:</span>{' '}
+              <p className="text-gray-300 text-lg leading-relaxed">
+                <span className="font-semibold text-white">Community & Wellness:</span>{' '}
                 Isha Volunteer; Participant in Cyclothons, Walkathon and Event
                 initiatives, Yoga practitioner
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <span className="text-primary-600 mt-1 flex-shrink-0">
+              <span className="text-primary-400 mt-1 flex-shrink-0">
                 <svg
                   className="w-6 h-6"
                   fill="none"
@@ -45,8 +45,8 @@ export default function Extracurricular() {
                   />
                 </svg>
               </span>
-              <p className="text-gray-700 text-lg leading-relaxed">
-                <span className="font-semibold">Arts & Performance:</span> Folk
+              <p className="text-gray-300 text-lg leading-relaxed">
+                <span className="font-semibold text-white">Arts & Performance:</span> Folk
                 Dance performer – National, State, and District-level
                 competitions
               </p>
@@ -57,4 +57,5 @@ export default function Extracurricular() {
     </section>
   )
 }
+
 

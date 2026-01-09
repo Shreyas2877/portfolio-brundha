@@ -47,7 +47,7 @@ export default function Navigation() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? 'bg-white shadow-lg py-3'
+            ? 'bg-gray-900/95 backdrop-blur-md shadow-lg py-3 border-b border-gray-800'
             : 'bg-transparent py-5'
         }`}
       >
@@ -55,7 +55,7 @@ export default function Navigation() {
           <div className="flex justify-between items-center">
             <button
               onClick={() => scrollToSection('hero')}
-              className="text-2xl font-bold text-gray-900 hover:text-primary-600 transition-colors"
+              className="text-2xl font-bold text-white hover:text-primary-400 transition-colors"
             >
               Brundha S V
             </button>
@@ -66,7 +66,7 @@ export default function Navigation() {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-gray-700 hover:text-primary-600 transition-colors font-medium"
+                  className="text-gray-300 hover:text-primary-400 transition-colors font-medium"
                 >
                   {item.label}
                 </button>
@@ -76,7 +76,7 @@ export default function Navigation() {
             {/* Mobile Hamburger Button */}
             <button
               onClick={() => setIsDrawerOpen(!isDrawerOpen)}
-              className="md:hidden p-2 text-gray-700 hover:text-primary-600 transition-colors"
+              className="md:hidden p-2 text-gray-300 hover:text-primary-400 transition-colors"
               aria-label="Toggle menu"
             >
               {isDrawerOpen ? (
@@ -123,17 +123,17 @@ export default function Navigation() {
 
       {/* Mobile Drawer */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed top-0 right-0 h-full w-64 bg-gray-900 shadow-2xl z-50 transform transition-transform duration-300 ease-in-out md:hidden border-l border-gray-800 ${
           isDrawerOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         <div className="flex flex-col h-full">
           {/* Drawer Header */}
-          <div className="flex items-center justify-between p-6 border-b border-gray-200">
-            <h2 className="text-xl font-bold text-gray-900">Menu</h2>
+          <div className="flex items-center justify-between p-6 border-b border-gray-800">
+            <h2 className="text-xl font-bold text-white">Menu</h2>
             <button
               onClick={() => setIsDrawerOpen(false)}
-              className="p-2 text-gray-700 hover:text-primary-600 transition-colors"
+              className="p-2 text-gray-300 hover:text-primary-400 transition-colors"
               aria-label="Close menu"
             >
               <svg
@@ -158,7 +158,7 @@ export default function Navigation() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="w-full text-left px-6 py-4 text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors font-medium"
+                className="w-full text-left px-6 py-4 text-gray-300 hover:bg-gray-800 hover:text-primary-400 transition-colors font-medium"
               >
                 {item.label}
               </button>
@@ -166,8 +166,8 @@ export default function Navigation() {
           </nav>
 
           {/* Drawer Footer */}
-          <div className="p-6 border-t border-gray-200">
-            <p className="text-sm text-gray-500 text-center">
+          <div className="p-6 border-t border-gray-800">
+            <p className="text-sm text-gray-400 text-center">
               Brundha S V
             </p>
           </div>

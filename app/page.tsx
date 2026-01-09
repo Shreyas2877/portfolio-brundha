@@ -10,7 +10,7 @@ import Navigation from '@/components/Navigation'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+    <main className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
       <Navigation />
       <Hero />
       <About />
@@ -20,7 +20,7 @@ export default function Home() {
       <Education />
       <Projects />
       <Extracurricular />
-      <footer className="bg-gray-900 text-white py-8 text-center">
+      <footer className="bg-black text-white py-8 text-center border-t border-gray-800">
         <p className="text-gray-400">
           © {new Date().getFullYear()} Brundha S V. All rights reserved.
         </p>
@@ -28,4 +28,5 @@ export default function Home() {
     </main>
   )
 }
+
 

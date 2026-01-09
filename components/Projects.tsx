@@ -23,10 +23,10 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
+      className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900"
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+        <h2 className="text-4xl font-bold text-white mb-12 text-center">
           Projects
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
@@ -36,14 +36,14 @@ export default function Projects() {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block group"
+              className="bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-xl hover:shadow-primary-500/20 transition-all duration-300 hover:-translate-y-1 block group border border-gray-700"
             >
               <div className="flex items-start justify-between mb-3">
-                <h3 className="text-xl font-bold text-gray-900 group-hover:text-primary-600 transition-colors">
+                <h3 className="text-xl font-bold text-white group-hover:text-primary-400 transition-colors">
                   {project.title}
                 </h3>
                 <svg
-                  className="w-5 h-5 text-gray-400 group-hover:text-primary-600 transition-colors flex-shrink-0 ml-2"
+                  className="w-5 h-5 text-gray-400 group-hover:text-primary-400 transition-colors flex-shrink-0 ml-2"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -56,7 +56,7 @@ export default function Projects() {
                   />
                 </svg>
               </div>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 {project.description}
               </p>
             </a>

@@ -24,28 +24,28 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="py-20 px-4 sm:px-6 lg:px-8 bg-white"
+      className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800"
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+        <h2 className="text-4xl font-bold text-white mb-12 text-center">
           Education
         </h2>
         <div className="space-y-8">
           {education.map((edu, index) => (
             <div
               key={index}
-              className="bg-gradient-to-r from-primary-50 to-white rounded-lg shadow-md p-8 hover:shadow-xl transition-shadow duration-300"
+              className="bg-gradient-to-r from-gray-700 to-gray-800 rounded-lg shadow-md p-8 hover:shadow-xl hover:shadow-primary-500/20 transition-all duration-300 border border-gray-700"
             >
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900">
+                  <h3 className="text-2xl font-bold text-white">
                     {edu.degree}
                   </h3>
-                  <p className="text-xl text-primary-600 font-semibold mt-1">
+                  <p className="text-xl text-primary-400 font-semibold mt-1">
                     {edu.institution}
                   </p>
                 </div>
-                <p className="text-gray-600 font-medium mt-2 md:mt-0">
+                <p className="text-gray-400 font-medium mt-2 md:mt-0">
                   {edu.period}
                 </p>
               </div>
@@ -53,9 +53,9 @@ export default function Education() {
                 {edu.highlights.map((highlight, idx) => (
                   <li
                     key={idx}
-                    className="flex items-start gap-3 text-gray-700"
+                    className="flex items-start gap-3 text-gray-300"
                   >
-                    <span className="text-primary-600 mt-1.5 flex-shrink-0">
+                    <span className="text-primary-400 mt-1.5 flex-shrink-0">
                       <svg
                         className="w-5 h-5"
                         fill="currentColor"
@@ -79,4 +79,5 @@ export default function Education() {
     </section>
   )
 }
+
 
