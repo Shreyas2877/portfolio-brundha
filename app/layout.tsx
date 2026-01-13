@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Brundha S V - Business Professional',
-  description: 'Results-driven Product & Strategy professional with 3+ years of experience driving customer-focused digital solutions in the insurance domain.',
+  description: 'Results-driven Business professional with 3+ years of experience driving customer-focused digital solutions in the insurance domain.',
 }
 
 export default function RootLayout({

@@ -32,7 +32,7 @@ export default function Hero() {
               Brundha S V
             </h1>
             <p className="text-2xl md:text-3xl text-gray-300 mb-4 font-medium">
-              Product & Strategy Professional
+              Business Professional
             </p>
             <p className="text-xl text-gray-400 mb-8 max-w-2xl">
               Driving customer-focused digital solutions in the insurance domain

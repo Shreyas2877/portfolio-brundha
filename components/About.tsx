@@ -10,7 +10,7 @@ export default function About() {
         </h2>
         <div className="prose prose-lg max-w-none prose-invert">
           <p className="text-gray-300 leading-relaxed text-lg">
-            Results-driven Product & Strategy professional with 3+ years of
+            Results-driven Business professional with 3+ years of
             experience driving customer-focused digital solutions in the
             insurance domain. Demonstrated ability to own end-to-end
             initiatives, improve conversion metrics, reduce customer leakage,
