@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Brundha S V - Product & Strategy Professional',
+  title: 'Brundha S V - Business Professional',
   description: 'Results-driven Product & Strategy professional with 3+ years of experience driving customer-focused digital solutions in the insurance domain.',
 }
 
